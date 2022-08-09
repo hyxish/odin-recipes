@@ -1,1 +1,1 @@
-# odin-recipes
+Create a recipe page using basic HTML & CSS
