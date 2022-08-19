@@ -41,17 +41,22 @@ p {
 }
 
 .column-ingredients {
-    float: left;
-    width: 25%;
-    padding-left: 20%;
+    flex: 1;
 }
 
 .column-steps {
-    float: left;
-    width: 48%;
+    flex: 2;
+
 }
 
-.left {
+.row-container {
     text-align: left;
     display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 50%;
+    display: flex;
 }
